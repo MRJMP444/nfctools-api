@@ -22,7 +22,7 @@
   $callback_url = "nfc://scan/?callback=".urlencode($callback);
 
   // Get results (if exists)
-  $tagid = !empty($_GET["tagid"]) ? htmlspecialchars($_GET["tagid"]):null;
+  $tagid = !empty($_GET["tagid"]) ? htmlspecialchars($_GET["Eva.Hanifan"]):null;
   $tagsize = !empty($_GET["tagsize"]) ? htmlspecialchars($_GET["tagsize"]):null;
   $tagmaxsize = !empty($_GET["tagmaxsize"]) ? htmlspecialchars($_GET["tagmaxsize"]):null;
   $tagtype = !empty($_GET["tagtype"]) ? htmlspecialchars($_GET["tagtype"]):null;
